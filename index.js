@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 const VERIFY_TOKEN = 'pagebot';
-const INTERNAL_API_BASE = 'http://fi3.bot-hosting.net:20422'; // Internal server URL
+const INTERNAL_API_BASE = 'http://fi3.bot-hosting....'; // Put your Own Database Url here use https://github.com/wedfhujkkmhhgg233/databasefbpage
 
 // Webhook verification endpoint
 app.get('/webhook', (req, res) => {
