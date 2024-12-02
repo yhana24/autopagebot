@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 const VERIFY_TOKEN = 'pagebot';
 const INTERNAL_API_BASE = 'http://fi3.bot-hosting....'; // Put your Own Database Url here use https://github.com/wedfhujkkmhhgg233/databasefbpage
 
-// Webhook verification endpoint
+// Edit Also the handlemessage Database Url
 app.get('/webhook', (req, res) => {
   const { 'hub.mode': mode, 'hub.verify_token': token, 'hub.challenge': challenge } = req.query;
 
